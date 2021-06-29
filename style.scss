@@ -8,7 +8,7 @@ $bg: #eae9e4;
 $dark: #1c1717;
 $light: #eed8c8;
 $title: #e2a947;
-$textLight: #eeede8;
+$textLight: #0b0808;
 $textDark: #323d3d;
 
 body {
@@ -23,11 +23,49 @@ body {
     padding: 0.5rem 1rem;
     letter-spacing: 2px;
     width: 180px;
+    font-family: "Roboto";
   }
 
   .card {
     background-color: $bg;
     border: none;
     margin: 3rem auto;
+  }
+
+  h2 {
+    font-family: serif;
+  }
+
+  .subtitle {
+    color: $textLight;
+    font-size: 0.7rem;
+  }
+
+  img {
+    width: 60px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+  }
+
+  @media screen and (max-width: 768px) {
+    h2 {
+      width: 70%;
+      margin-top: 2rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      margin: 1rem;
+    }
+
+    .subtitle {
+      margin-bottom: 2rem;
+    }
   }
 }

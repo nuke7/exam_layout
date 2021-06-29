@@ -16,9 +16,40 @@ body button {
   padding: 0.5rem 1rem;
   letter-spacing: 2px;
   width: 180px;
+  font-family: "Roboto";
 }
 body .card {
   background-color: #eae9e4;
   border: none;
   margin: 3rem auto;
+}
+body h2 {
+  font-family: serif;
+}
+body .subtitle {
+  color: #0b0808;
+  font-size: 0.7rem;
+}
+body img {
+  width: 60px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  body h2 {
+    width: 70%;
+    margin-top: 2rem;
+  }
+  body button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  body .card {
+    margin: 1rem;
+  }
+  body .subtitle {
+    margin-bottom: 2rem;
+  }
 }
