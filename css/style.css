@@ -7,3 +7,18 @@
 body {
   background-color: #eae9e4;
 }
+body button {
+  color: #eed8c8;
+  background-color: #1c1717;
+  text-transform: uppercase;
+  /* padding: 1rem; */
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+  width: 180px;
+}
+body .card {
+  background-color: #eae9e4;
+  border: none;
+  margin: 3rem auto;
+}

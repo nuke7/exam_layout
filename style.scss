@@ -6,11 +6,28 @@
 
 $bg: #eae9e4;
 $dark: #1c1717;
-$light: #f2f2f2;
+$light: #eed8c8;
 $title: #e2a947;
 $textLight: #eeede8;
 $textDark: #323d3d;
 
 body {
   background-color: $bg;
+
+  button {
+    color: $light;
+    background-color: $dark;
+    text-transform: uppercase;
+    /* padding: 1rem; */
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    letter-spacing: 2px;
+    width: 180px;
+  }
+
+  .card {
+    background-color: $bg;
+    border: none;
+    margin: 3rem auto;
+  }
 }
